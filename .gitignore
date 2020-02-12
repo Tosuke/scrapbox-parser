@@ -1,6 +1,7 @@
 lib
 esm
 umd
+types
 
 ### https://raw.github.com/github/gitignore/4a8e0a151becd5ccbb83e4aca6e6c195f3d506fd/Global/macOS.gitignore
 
@@ -8,9 +9,11 @@ umd
 .DS_Store
 .AppleDouble
 .LSOverride
+.vscode
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*

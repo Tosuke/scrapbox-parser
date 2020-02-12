@@ -13,10 +13,8 @@ module.exports = {
         test: /\.ts$/,
         exclude: /node_modules/,
         use: {
-          loader: 'ts-loader',
-          options: {
-            configFile: 'tsconfig.umd.json'
-          }
+          loader: 'babel-loader',
+          options: require('./babel.config.esm.json')
         }
       }
     ]

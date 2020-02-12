@@ -1,7 +1,7 @@
 {
   "extends": "./tsconfig",
   "compilerOptions": {
-    "module": "es2015",
-    "outDir": "./esm",
+    "emitDeclarationOnly": true,
+    "outDir": "./types"
   }
 }
